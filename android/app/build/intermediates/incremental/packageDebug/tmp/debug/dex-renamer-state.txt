@@ -1,0 +1,4 @@
+#Tue Jan 08 11:08:33 EET 2019
+base.0=/Users/andreeapescar/MCRO/my_project/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,4 @@
+{
+  "_comment": "This file is required for absolutely imports. See https://github.com/facebook/react-native/issues/3099#issuecomment-221815006.",
+  "name": "src"
+}

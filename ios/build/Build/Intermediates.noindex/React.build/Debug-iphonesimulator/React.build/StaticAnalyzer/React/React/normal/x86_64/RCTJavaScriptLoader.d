@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTJavaScriptLoader.mm \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/andreeapescar/MCRO/my_project/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTMultipartDataTask.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTMultipartStreamReader.h \
+  /Users/andreeapescar/MCRO/my_project/node_modules/react-native/React/Base/RCTPerformanceLogger.h
