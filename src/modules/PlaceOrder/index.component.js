@@ -13,7 +13,6 @@ import assets from '../../assets/index';
 import Button from '../../components/SweetShop/SweetShopButton/index';
 import SmoothText from '../../components/Text/SmoothText/index';
 import TextInput from '../../components/TextInput/index';
-import { deviceIsPhone } from '../../utils/device';
 import HeaderTitle from '../../components/SweetShop/SweetShopNavigationBar/index';
 import HeaderComponent from '../components/HeaderComponent';
 
@@ -84,13 +83,7 @@ class PlaceOrderView extends React.PureComponent {
     const message = {};
 
     Object.keys(fields).forEach((key) => {
-      if (fields[key].type === 'tree' && fields[key].values) {
-        Object.keys(fields[key].values).forEach((valueKey) => {
-          message[valueKey] = fields[key].values[valueKey].value.toString();
-        });
-      } else {
-        message[key] = fields[key].value.toString();
-      }
+      message[key] = fields[key].value.toString();
     });
 
     placeOrder({ ...sweetItem, sweetId: sweetItem.id });
@@ -269,7 +262,7 @@ class PlaceOrderView extends React.PureComponent {
 
     return (
       <KeyboardAwareScrollView
-        style={{ flex: 1, backgroundColor: deviceIsPhone ? theme.colors.white : theme.colors.lightGray }}
+        style={{ flex: 1, backgroundColor: theme.colors.white }}
       >
 
         {this.renderImageSection()}

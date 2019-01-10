@@ -2,7 +2,7 @@ import {applyMiddleware, compose} from 'redux';
 import thunk from 'redux-thunk';
 import Reactotron from 'src/utils/ReactotronConfig';
 
-import rootReducer from 'src/reducers/global/navigation/index';
+import rootReducer from 'src/reducers/global/index';
 
 import { NavigationActions } from 'react-navigation';
 

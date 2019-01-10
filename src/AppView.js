@@ -12,6 +12,7 @@ function getActiveRoute(navigationState) {
   if (!navigationState) {
     return null;
   }
+
   const route = navigationState.routes[navigationState.index];
   // dive into nested navigators
   if (route.routes) {
@@ -26,6 +27,8 @@ class AppView extends Component {
     const { loading } = this.props;
     const { errors, loaded } = nextProps;
 
+    // we are looking into the loading object and for each request that was in progress
+    // we check if there are some changes in the errors object or into the loaded object
     Object.keys(loading).forEach(key => {
       if (errors[key]) {
         DropdownHolder.alert('error', errors[key].message);
@@ -47,6 +50,9 @@ class AppView extends Component {
             store.dispatch({
               type: 'NAVIGATION',
               payload: {
+                // each time the user navigates to a screen, we save into the state the current route
+                // and the requestId (for screens that can be used by multiple items, so than we can be
+                // aware which item uses that screen)
                 currentScreen: currentScreen.routeName,
                 requestId: currentScreen.params && currentScreen.params.requestId,
               },

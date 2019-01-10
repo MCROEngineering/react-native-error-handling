@@ -20,7 +20,7 @@ import {
   SweetCardHeader,
   SweetCardTitle,
   SweetImage,
-  HomeIconWrapper,
+  HatIconWrapper,
   ArrowIconWrapper,
   SweetCardHeaderMain,
 } from './index.style';
@@ -37,7 +37,6 @@ class HomePage extends React.PureComponent {
 
     this.renderItem = this.renderItem.bind(this);
     this.renderSweets = this.renderSweets.bind(this);
-    this.renderError = this.renderError.bind(this);
   }
 
   componentDidMount() {
@@ -58,10 +57,17 @@ class HomePage extends React.PureComponent {
     const imageExtraProp = { resizeMode: 'contain' };
 
     return (
-      <SweetCard onPress={() => navigation.navigate('SweetItem', { sweetItem: item, requestId: item.id })} key={`LOR-${id}`}>
+      <SweetCard
+        onPress={() => navigation.navigate('SweetItem', {
+          // requestId is extremely IMPORTANT (check AppView.js)
+          sweetItem: item,
+          requestId: item.id,
+        })}
+        key={`SWEET-${id}`}
+      >
         <SweetCardHeader height={MatchingPercentageWrapperHeight + (2 * 16)}>
           <SweetCardHeaderMain>
-            <HomeIconWrapper key={`matching-properties-wrapper-${id}`}>
+            <HatIconWrapper key={`matching-properties-wrapper-${id}`}>
               <Icon
                 touchableDisabled
                 style={{ position: 'relative', marginRight: 0 }}
@@ -70,7 +76,7 @@ class HomePage extends React.PureComponent {
                 imageExtraProp={imageExtraProp}
               />
               <MatchingPropertiesText>{`${points}`}</MatchingPropertiesText>
-            </HomeIconWrapper>
+            </HatIconWrapper>
             <SweetCardTitle numberOfLines={2}>{title}</SweetCardTitle>
           </SweetCardHeaderMain>
 
@@ -111,21 +117,16 @@ class HomePage extends React.PureComponent {
     );
   }
 
-  renderError() {
-    const { loadSweetsError, loadSweets } = this.props;
-
-    return (<ErrorScreen customError={loadSweetsError.message} onRefresh={loadSweets} />);
-  }
-
   render() {
     const {
       loadingSweets,
       loadSweetsError,
+      loadSweets,
       theme,
     } = this.props;
 
     if (!loadingSweets && loadSweetsError) {
-      return this.renderError();
+      return (<ErrorScreen customError={loadSweetsError.message} onRefresh={loadSweets} />);
     }
 
     return (

@@ -2,10 +2,10 @@ import { sweetsList, cupcakesRecipe, tiramisuRecipe } from './mockedData';
 
 export const getSweetsRequest = () => new Promise((resolve, reject) => {
   setTimeout(() => {
-    // user case 1
+    // error case:
     // reject({ message: 'The list could not be loaded.' });
 
-    // user case 2
+    // success case:
     resolve({ data: { sweets: sweetsList } });
   }, 1000);
 });

@@ -22,13 +22,4 @@ export const isNumberValid = (text) => {
   return regex.test(text);
 };
 
-export const alphanumeric = (text) => {
-  /* eslint-disable */
-  const regex = /^[0-9a-zA-Z, ]+$/;
-  /* eslint-enable */
-
-  return regex.test(text);
-};
-
-
 export const isDefaultFieldValid = (value, length = 3) => value && value.length >= length;

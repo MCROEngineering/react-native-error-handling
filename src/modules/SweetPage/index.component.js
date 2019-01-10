@@ -55,7 +55,7 @@ class SweetView extends React.PureComponent {
 
     return (
       <HeaderComponent
-        showOfferingIcons
+        showSweetIcons
         sweet={sweetItem}
         loading={loading}
         setModalVisible={() => {
@@ -170,7 +170,11 @@ class SweetView extends React.PureComponent {
         {this.renderContent()}
 
         <FooterRow
-          onPress={() => navigation.navigate('PlaceSweetOrder', { sweetItem, requestId: sweetItem.id })}
+          onPress={() => navigation.navigate('PlaceSweetOrder', {
+            // requestId is extremely IMPORTANT (check AppView.js)
+            sweetItem,
+            requestId: sweetItem.id
+          })}
         >
           <Icon
             imageStyle={{

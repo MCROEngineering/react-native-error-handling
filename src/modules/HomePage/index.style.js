@@ -1,11 +1,5 @@
 import styled from 'styled-components/native';
 import { getFontSize } from 'src/utils/fonts';
-import { deviceIsPhone } from 'src/utils/device';
-
-const getImageHeight = theme => (deviceIsPhone
-  ? theme.size.neighbourhoodCards.image.small
-  : theme.size.neighbourhoodCards.image.big
-);
 
 export const Heading = styled.Text`
   font-size: ${getFontSize(36)}px;
@@ -33,13 +27,13 @@ export const SweetCardHeader = styled.View`
   height: ${props => props.height}px;
 `;
 
-export const HomeIconWrapper = styled.View`
+export const HatIconWrapper = styled.View`
   margin: 8px;
   align-items: center;
   justify-content: center;
 `;
 
-export const ArrowIconWrapper = styled(HomeIconWrapper)`
+export const ArrowIconWrapper = styled(HatIconWrapper)`
   align-items: flex-end;
   flex-grow: 1;
 `;
@@ -59,7 +53,7 @@ export const SweetCardHeaderMain = styled.View`
 `;
 
 export const SweetImage = styled.Image`
-  height: ${props => getImageHeight(props.theme)}px;
+  height: ${props => props.theme.size.cards.image.small}px;
   width: 100%;
   background-color: ${props => props.theme.colors.lightGray};
 `;

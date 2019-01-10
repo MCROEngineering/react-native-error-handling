@@ -10,8 +10,8 @@ import * as ac from './actionsCreators';
 
 const entitiesID = 'sweets';
 
-const neighbourhoodSchema = new normalizrSchema.Entity(entitiesID, {}, { idAttribute: 'id' });
-const neighbourhoodResultsSchema = [neighbourhoodSchema];
+const sweetSchema = new normalizrSchema.Entity(entitiesID, {}, { idAttribute: 'id' });
+const sweetResultsSchema = [sweetSchema];
 
 export function loadSweets() {
   return async (dispatch) => {
@@ -22,7 +22,7 @@ export function loadSweets() {
       const { data } = response;
       const { sweets } = data;
 
-      const results = normalize(sweets, neighbourhoodResultsSchema);
+      const results = normalize(sweets, sweetResultsSchema);
 
       return dispatch(ac.loadSweets.success({
         ...results,

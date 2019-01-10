@@ -7,6 +7,7 @@ const filterRequestStatus = (requestStatus, currentRoute, currentRouteRequestId)
   const filteredLoading = {};
   const filteredLoaded = {};
   const filteredErrors = {};
+
   const handleSingleApiRequest = (key, value) => {
     const { error, loaded, isLoading } = value;
 
@@ -22,6 +23,7 @@ const filterRequestStatus = (requestStatus, currentRoute, currentRouteRequestId)
       filteredLoading[key] = true;
     }
   };
+
   const handleMultipleApiRequest = (key, value) => {
     Object.keys(value).filter(innerKey => {
       const innerValue = value[innerKey] || {};

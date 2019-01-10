@@ -1,5 +1,4 @@
 import styled from 'styled-components/native';
-import { deviceIsPhone } from 'src/utils/device';
 
 export const Text = styled.Text`
   font-size: 12px;
@@ -8,7 +7,7 @@ export const Text = styled.Text`
   letter-spacing: 0;
   text-align: center;
   line-height: 14px;
-  ${!deviceIsPhone ? 'margin-right: 8px;' : ''}
+  margin-right: 8px;
 `;
 
 export const Text2 = styled.Text`
@@ -18,11 +17,11 @@ export const Text2 = styled.Text`
   letter-spacing: 0;
   text-align: center;
   line-height: 26px;
-  ${!deviceIsPhone ? 'margin-right: 8px;' : ''}
+  margin-right: 8px;
 `;
 
 export const View = styled.View`
-  flex-direction: ${deviceIsPhone ? 'column' : 'row'};
+  flex-direction: column;
   align-items: flex-end;
   margin: 12px;
 `;

@@ -6,14 +6,12 @@ import Icon from 'src/components/Icon/index';
 import assets from 'src/assets/index';
 
 import {
-  OfferingCardImage,
-  OfferingCardImageWrapper,
-  OfferingCardAboveImageWrapper,
-  OfferingDetailsAboveImageWrapper,
+  CardImage,
+  CardImageWrapper,
+  CardAboveImageWrapper,
+  DetailsAboveImageWrapper,
   CardTitles,
-  OfferingsIconsAboveImageWrapper,
-  Offer,
-  OfferText,
+  IconsAboveImageWrapper,
   IconsWrapper,
 } from './index.style';
 
@@ -26,13 +24,35 @@ class SellerContactHeader extends React.PureComponent {
       sweet,
       loading,
       setModalVisible,
-      showOfferingIcons,
+      showSweetIcons,
     } = this.props;
     const {
       image,
       title,
-      offer,
     } = sweet;
+    let sweetIcons = null;
+
+    if (showSweetIcons) {
+      sweetIcons = (
+        <IconsAboveImageWrapper>
+          <IconsWrapper>
+            <Icon
+              style={{
+                marginRight: 16,
+              }}
+              imageStyle={{
+                height: IconDimension,
+                width: IconDimension,
+                tintColor: loading ? theme.colors.border : theme.colors.white,
+              }}
+              source={assets.icons.chef}
+              onPress={setModalVisible}
+            />
+          </IconsWrapper>
+        </IconsAboveImageWrapper>
+      );
+    }
+
     let fontSize = 40;
 
     if (title.length > 24) {
@@ -43,37 +63,12 @@ class SellerContactHeader extends React.PureComponent {
     }
 
     return (
-      <OfferingCardImageWrapper>
-        <OfferingCardImage
-          source={image ? { uri: image } : assets.icons.placeholder}
-        />
+      <CardImageWrapper>
+        <CardImage source={image ? { uri: image } : assets.icons.placeholder} />
 
-        <OfferingCardAboveImageWrapper>
-          {
-            showOfferingIcons
-              ? (
-              <OfferingsIconsAboveImageWrapper>
-                {offer ? (<Offer><OfferText>OFFER</OfferText></Offer>) : null}
-
-                <IconsWrapper>
-                  <Icon
-                    style={{
-                      marginRight: 16,
-                    }}
-                    imageStyle={{
-                      height: IconDimension,
-                      width: IconDimension,
-                      tintColor: loading ? theme.colors.border : theme.colors.white,
-                    }}
-                    source={assets.icons.chef}
-                    onPress={setModalVisible}
-                  />
-                </IconsWrapper>
-              </OfferingsIconsAboveImageWrapper>
-            )
-              : null
-          }
-          <OfferingDetailsAboveImageWrapper>
+        <CardAboveImageWrapper>
+          {sweetIcons}
+          <DetailsAboveImageWrapper>
             <CardTitles
               style={{
                 fontSize,
@@ -85,9 +80,9 @@ class SellerContactHeader extends React.PureComponent {
             >
               {title}
             </CardTitles>
-          </OfferingDetailsAboveImageWrapper>
-        </OfferingCardAboveImageWrapper>
-      </OfferingCardImageWrapper>
+          </DetailsAboveImageWrapper>
+        </CardAboveImageWrapper>
+      </CardImageWrapper>
     );
   }
 }
@@ -96,14 +91,14 @@ SellerContactHeader.propTypes = {
   theme: PropTypes.shape({}).isRequired,
   sweet: PropTypes.shape({}),
   loading: PropTypes.bool,
-  showOfferingIcons: PropTypes.bool,
+  showSweetIcons: PropTypes.bool,
   setModalVisible: PropTypes.func,
 };
 
 SellerContactHeader.defaultProps = {
   sweet: {},
   loading: false,
-  showOfferingIcons: false,
+  showSweetIcons: false,
   setModalVisible: () => {},
 };
 

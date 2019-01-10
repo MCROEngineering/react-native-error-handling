@@ -1,12 +1,7 @@
-import styled, { css } from 'styled-components/native';
+import styled  from 'styled-components/native';
 import { getFontSize } from 'src/utils/fonts';
 
-export const TextStyles = css`
-  color: ${props => props.theme.colors.textLight};
-  font-size: ${props => getFontSize(props.theme.font.size.big)};
-`;
-
-export const ButtonStyles = css`
+export const Button = styled.TouchableOpacity`
   align-items: center;
   background-color: #a89300;
   border-radius: 25;
@@ -23,11 +18,7 @@ export const ButtonStyles = css`
   shadow-radius: 2;
 `;
 
-export const TitleStyles = css`
+export const Text = styled.Text`
   color: ${props => props.theme.colors.textLight};
-  font-size: 16px;
+  font-size: ${props => getFontSize(props.theme.font.size.big)};
 `;
-
-export const Button = styled.TouchableOpacity`${ButtonStyles};`;
-export const Title = styled.TouchableOpacity`${TitleStyles};`;
-export const Text = styled.Text`${TextStyles}`;

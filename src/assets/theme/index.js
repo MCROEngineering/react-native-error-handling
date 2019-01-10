@@ -26,8 +26,8 @@ export default {
     family: {
       primary: {
         bold: 'System',
-        light: 'System', //'DINPro-Light',
-        regular: 'System', //'DINPro-Regular',
+        light: 'System',
+        regular: 'System',
       },
       pre: '',
       quote: '',
@@ -50,10 +50,7 @@ export default {
   spacing: {
     screen: {
       horizontal: 11.6,
-      horizontalTablet: 112,
       vertical: 22,
-      verticalTablet: 40,
-      verticalTabletBigger: 130,
     },
     section: {
       big: 60,
@@ -80,7 +77,7 @@ export default {
     component: {
       default: 48,
     },
-    neighbourhoodCards: {
+    cards: {
       image: {
         small: 160,
         big: 240,
