@@ -160,16 +160,8 @@ class PlaceOrderView extends React.PureComponent {
     let allValid = true;
 
     Object.keys(fields).forEach((key) => {
-      if (fields[key].type !== 'tree') {
-        if (!fields[key].isValid) {
-          allValid = false;
-        }
-      } else if (fields[key].values) {
-        Object.keys(fields[key].values).forEach((innerKey) => {
-          if (!fields[key].values[innerKey].isValid) {
-            allValid = false;
-          }
-        });
+      if (!fields[key].isValid) {
+        allValid = false;
       }
     });
 
