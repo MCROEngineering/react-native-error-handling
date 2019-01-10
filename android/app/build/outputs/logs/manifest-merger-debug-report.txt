@@ -1,11 +1,11 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-MERGED from [:react-native-gesture-handler] /Users/andreeapescar/MCRO/my_project/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:2:1-15:12
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-gesture-handler] /Users/andreeapescar/react-native-error-handling/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:2:1-15:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f5fa37956c30cd19513dab4cb676eea3/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6d3da67cbf083b3ae91c6ca0594d187f/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/bc020f0dbca9dbee46c808622dde0441/AndroidManifest.xml:17:1-22:12
@@ -25,83 +25,83 @@ MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/andreeapescar/.gradl
 MERGED from [com.facebook.fresco:fbcore:1.10.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/fbcore-1.10.0.aar/d67ebd789597280ecb26444da5e715cc/AndroidManifest.xml:2:1-9:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3a46158446de49e4eaaafb60eacf9f94/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/85234f047acb36fa5f08b30d64dff2f4/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
 	package
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:2:5-29
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:2:5-29
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:4:5-67
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:4:5-67
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:4:22-64
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:4:22-64
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:5:5-77
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:11:5-78
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:11:5-78
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:11:5-78
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:5:22-75
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:5:22-75
 application
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:7:5-24:19
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:13:5-20
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:13:5-20
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:13:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/69d699d4cc08c2f5c302c2b98ba80dd4/AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.soloader:soloader:0.5.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/soloader-0.5.1.aar/69d699d4cc08c2f5c302c2b98ba80dd4/AndroidManifest.xml:11:5-20
 MERGED from [org.webkit:android-jsc:r174650] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/9b86dcdada5d7621e555edcb2700f817/AndroidManifest.xml:2:3-17
 MERGED from [org.webkit:android-jsc:r174650] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/android-jsc-r174650.aar/9b86dcdada5d7621e555edcb2700f817/AndroidManifest.xml:2:3-17
 	android:label
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:9:7-39
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:9:7-39
 	android:icon
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:10:7-41
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:10:7-41
 	android:allowBackup
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:11:7-34
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:11:7-34
 	android:theme
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:12:7-38
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:12:7-38
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:8:7-38
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:8:7-38
 activity#com.my_project.MainActivity
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:13:7-22:18
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:13:7-22:18
 	android:label
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:15:9-41
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:15:9-41
 	android:windowSoftInputMode
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:17:9-51
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:17:9-51
 	android:configChanges
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:16:9-79
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:16:9-79
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:14:9-37
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:14:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:18:9-21:25
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:18:9-21:25
 action#android.intent.action.MAIN
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:19:13-65
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:19:13-65
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:19:21-62
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:19:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:20:13-73
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:20:13-73
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:20:23-70
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:20:23-70
 activity#com.facebook.react.devsupport.DevSettingsActivity
-ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:23:7-84
+ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:23:7-84
 	android:name
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:23:17-81
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:23:17-81
 uses-sdk
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-MERGED from [:react-native-gesture-handler] /Users/andreeapescar/MCRO/my_project/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [:react-native-gesture-handler] /Users/andreeapescar/MCRO/my_project/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:7:5-9:41
-MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-gesture-handler] /Users/andreeapescar/react-native-error-handling/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] /Users/andreeapescar/react-native-error-handling/node_modules/react-native-gesture-handler/android/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.8] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f5fa37956c30cd19513dab4cb676eea3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f5fa37956c30cd19513dab4cb676eea3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.1] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/6d3da67cbf083b3ae91c6ca0594d187f/AndroidManifest.xml:20:5-44
@@ -138,19 +138,19 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andreeapescar/.gradle/
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/3a46158446de49e4eaaafb60eacf9f94/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/85234f047acb36fa5f08b30d64dff2f4/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/85234f047acb36fa5f08b30d64dff2f4/AndroidManifest.xml:20:5-44
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+IMPLIED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /Users/andreeapescar/MCRO/my_project/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /Users/andreeapescar/react-native-error-handling/android/app/src/main/AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE

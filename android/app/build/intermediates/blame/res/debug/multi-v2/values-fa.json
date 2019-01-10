@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/andreeapescar/MCRO/my_project/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
+            "outputFile": "/Users/andreeapescar/react-native-error-handling/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-fa/values-fa.xml",
             "map": [
                 {
                     "source": "/Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f5fa37956c30cd19513dab4cb676eea3/res/values-fa/values-fa.xml",

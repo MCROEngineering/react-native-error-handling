@@ -1,27 +1,8 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/andreeapescar/MCRO/my_project/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/andreeapescar/react-native-error-handling/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
-                {
-                    "source": "/Users/andreeapescar/MCRO/my_project/android/app/src/main/res/values/styles.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "54",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "177"
-                    },
-                    "to": {
-                        "startLines": "595",
-                        "startColumns": "4",
-                        "startOffsets": "50375",
-                        "endLines": "597",
-                        "endColumns": "12",
-                        "endOffsets": "50498"
-                    }
-                },
                 {
                     "source": "/Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/0931ad6ad548bc5c4f76c58dc7b29e70/res/values/values.xml",
                     "from": {
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreeapescar/MCRO/my_project/android/app/src/main/res/values/strings.xml",
+                    "source": "/Users/andreeapescar/react-native-error-handling/android/app/src/main/res/values/strings.xml",
                     "from": {
                         "startLines": "1",
                         "startColumns": "4",
@@ -56,6 +37,25 @@
                         "startOffsets": "46399",
                         "endColumns": "47",
                         "endOffsets": "46442"
+                    }
+                },
+                {
+                    "source": "/Users/andreeapescar/react-native-error-handling/android/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "54",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "177"
+                    },
+                    "to": {
+                        "startLines": "595",
+                        "startColumns": "4",
+                        "startOffsets": "50375",
+                        "endLines": "597",
+                        "endColumns": "12",
+                        "endOffsets": "50498"
                     }
                 },
                 {
@@ -97,7 +97,7 @@
                     }
                 },
                 {
-                    "source": "/Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/0c4e40c691d0ffda80882b223faf4173/res/values/values.xml",
+                    "source": "/Users/andreeapescar/.gradle/caches/transforms-1/files-1.1/react-native-0.57.8.aar/362ccd7aec33173328e44a12871b9cff/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,41,44,47,50,53,57,61,64,67,70,73,74,75,82,89,92,95,98,104",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
