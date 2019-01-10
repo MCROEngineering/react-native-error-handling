@@ -9,7 +9,11 @@ export const configuration = {
 };
 
 export const checkRoute = (key, route, innerKey, currentRouteRequestId) => {
-  const currentRoute = configuration[key] === ALL_ROUTES || configuration[key].indexOf(route) >= 0;
+  if (configuration[key] === ALL_ROUTES) {
+    return true;
+  }
+
+  const currentRoute = configuration[key].indexOf(route) >= 0;
 
   if (innerKey && currentRouteRequestId) {
     return currentRoute && innerKey.toString() === currentRouteRequestId.toString();
