@@ -49,3 +49,7 @@ react-native run-android
 ````
 
 If you want to run the app on a physical Android device, follow [these instructions](https://facebook.github.io/react-native/docs/running-on-device).
+
+## Notes
+
+Both Load recipe and Place an Order will fail only for the first item in the list (Oreo Brownie).
