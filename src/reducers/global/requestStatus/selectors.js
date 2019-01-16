@@ -1,4 +1,4 @@
-import { checkRoute } from 'src/reducers/global/screen_errorConfig';
+import { checkRoute } from 'src/reducers/global/screenErrorConfig';
 
 const getCurrentRoute = (state) => state.navigatorState.currentRoute;
 const getCurrentRouteRequestId = (state) => state.navigatorState.requestId;
