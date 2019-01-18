@@ -20,7 +20,7 @@ npm install -g react-native-cli
 ### Clone Repo
 
 ````
-git clone git@github.com:MVPFactory/cbre_homematch_mobile.git
+https://github.com/MCROEngineering/react-native-error-handling
 ````
 
 
